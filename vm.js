@@ -24,7 +24,6 @@ while(ram[ip] != "exit"){
 		
 		case "add":
 			ram[ram[ip + 3]] = parseInt(ram[ram[ip + 1]]) + parseInt(ram[ram[ip + 2]]);
-			//console.log(ram[ram[ip + 3]]);
 			ip += 4;
 			break;
 		
